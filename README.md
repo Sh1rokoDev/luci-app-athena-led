@@ -1,6 +1,6 @@
 ## 项目说明
 
-本项目是 [haipengno1/luci-app-athena-led](https://github.com/haipengno1/luci-app-athena-led) 的 fork 版本
+本项目的 LuCI2-JS 分支基于 [haipengno1/luci-app-athena-led](https://github.com/haipengno1/luci-app-athena-led) 并使用 JavaScript 进行重写
 
 # luci-app-athena-led
 
@@ -18,11 +18,6 @@ OpenWrt LuCI 界面的京东云 AX6600 LED 屏幕控制插件。
 - 侧边 LED 状态指示灯控制
 - 支持显示轮播和时间间隔设置
 
-## 依赖说明
-
-- lua
-- luci-base
-
 ## 安装
 
 ### 从源码编译
@@ -30,8 +25,6 @@ OpenWrt LuCI 界面的京东云 AX6600 LED 屏幕控制插件。
 1. 将代码克隆到 OpenWrt 的 package 目录下
 2. 在 menuconfig 中选择 LuCI -> Applications -> luci-app-athena-led
 3. 编译并安装
-
-注意：插件会自动从 [athena-led releases](https://github.com/Nanashi-Development/athena-led) 下载对应架构的二进制文件
 
 ## 使用说明
 
