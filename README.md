@@ -1,6 +1,8 @@
 ## 项目说明
 
-本项目是 [haipengno1/luci-app-athena-led](https://github.com/haipengno1/luci-app-athena-led) 的 fork 版本
+**该分支停止维护！**
+
+本项目是 [haipengno1/luci-app-athena-led](https://github.com/haipengno1/luci-app-athena-led) 的分支版本
 
 # luci-app-athena-led
 
@@ -31,7 +33,7 @@ OpenWrt LuCI 界面的京东云 AX6600 LED 屏幕控制插件。
 2. 在 menuconfig 中选择 LuCI -> Applications -> luci-app-athena-led
 3. 编译并安装
 
-注意：插件会自动从 [athena-led releases](https://github.com/Nanashi-Development/athena-led) 下载对应架构的二进制文件
+注意：插件会自动从 [athena-led releases](https://github.com/Sh1rokoDev/athena-led/releases/tag/v0.7.0) 下载对应架构的二进制文件，请确保设备能够访问 GitHub。
 
 ## 使用说明
 
