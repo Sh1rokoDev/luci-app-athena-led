@@ -9,6 +9,7 @@ PKG_LICENSE_FILES:=LICENSE
 PKG_MAINTAINER:=Sh1roko233 <https://github.com/Sh1rokoDev>
 PKG_BUILD_DEPENDS:=rust/host
 PKG_BUILD_PARALLEL:=1
+PKG_BUILD_FLAGS:=no-lto
 
 include $(INCLUDE_DIR)/package.mk
 include $(TOPDIR)/feeds/packages/lang/rust/rust-package.mk
